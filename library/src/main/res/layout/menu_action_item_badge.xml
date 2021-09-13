@@ -1,5 +1,4 @@
 <?xml version="1.0" encoding="utf-8"?>
-
 <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
     style="?android:attr/actionButtonStyle"
     android:layout_width="match_parent"
@@ -8,7 +7,7 @@
     android:focusable="true"
     android:gravity="center">
 
-    <ImageView
+    <de.hdodenhof.circleimageview.CircleImageView
         android:id="@+id/menu_badge_icon"
         android:layout_width="match_parent"
         android:layout_height="match_parent" />
